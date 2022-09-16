@@ -1,0 +1,579 @@
+@media screen and (min-width: 769px) {
+.hbg-menu {
+  display: none;
+}
+
+.back-img {
+  background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+  background-color: white;
+  background-size: cover;
+  background-position:center;
+  margin:0;
+  padding:0;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.potepan {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:rgba(0,0,0,0);
+}
+.menu-content {
+  margin-bottom: 0px;
+  justify-content: flex-end;
+  position: relative;
+  top: -20px;
+  font-size: 10px;
+}
+
+.menu-pt {
+  position: relative;
+  top: 30px;
+  left:10px;
+  float: left;
+  cursor: pointer;
+  z-index: 100;
+}
+.a {
+  text-decoration: none;
+  color: black;
+  justify-content:center;
+  font-weight: bold;
+  text-align: center;
+}
+ul {
+  display: flex;
+  justify-content:flex-end;
+  list-style:none;
+}
+li {
+  padding : 0 30px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.potepan {
+  height:0px;
+  margin-top: 0px;
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+}
+
+.a:hover {
+   opacity: 0.75;
+   text-align: center;
+}
+.menu-pt:hover {
+   opacity: 0.75;
+}
+
+.btn{
+  display:flex;
+  font-size: 7px;
+  color: white;
+  border-radius: 100vh;
+  background-color: orange;
+  margin-top:0px;
+  outline : none;
+  border : none;
+  height: 30px;
+  font-weight: bold;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  align-items:center;
+}
+.btn:hover {
+  opacity: 0.75;
+}
+
+.place {
+  position: relative;
+}
+
+.body-size {
+  margin: 0px;
+  padding: 0px;
+}
+
+.center-size {
+  height: 500px;
+}
+.text-center {
+  white-space: nowrap;
+  text-align:center;
+  font-size:40px;
+  font-family: 'Lato',sans-serif;
+  font-weight: bold;
+  margin-top: 100px;
+  padding-left: 90px;
+  margin-bottom:15px;
+  height: 200px;
+  float: left;
+}
+
+.img-place {
+  position:relative;
+  padding: inherit;
+}
+.img {
+  position:absolute;
+}
+.lef {
+  top: 250px;
+  left:100px;
+}
+.cen {
+  top:220px;
+  left:250px;
+}
+.rig {
+  top:250px;
+  left:450px;
+}
+
+.color-place {
+  height: 100px;
+  position:relative;
+}
+.cl {
+  position: absolute;
+}
+.white {
+  top:-80px;
+  left: 105px;
+  color:white;
+}
+.black {
+  top: -80px;
+  left: 380px;
+  color:black;
+}
+.li {
+  top:10px;
+  left: 100px;
+  list-style: none;
+  font-size: 10px;
+  color: gray;
+}
+
+.btn2 {
+  outline: none;
+  border: none;
+  background-color: orange;
+  border-radius: 100vh;
+  color: white;
+  font-size: 13px;
+  height:50px;
+  width: 260px;
+  cursor:pointer;
+}
+.btn2:hover {
+   opacity: 0.75;
+}
+.btn3 {
+  border-color: gray;
+  border-width: 0.5px;
+  background-color: white;
+  border-radius: 100vh;
+  font-size: 13px;
+  height: 50px;
+  width: 150px;
+  cursor:pointer;
+}
+.btn3:hover {
+   opacity: 0.75;
+}
+
+.video-ins {
+  background-color: orange;
+  height:500px;
+  color: white;
+}
+.background-color {
+  display: flex;
+  position: relative;
+}
+.v {
+  position: absolute;
+}
+.pe{
+  top: 50px;
+  left:30px;
+}
+
+.te {
+  top:100px;
+  left:700px;
+  margin:0;
+  padding:0;
+  font-weight: bold;
+  font-family: 'Lato',sans-serif;
+  font-size: 40px;
+  white-space: nowrap;
+}
+.font {
+  font-family:  "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+.tt {
+  margin:0px;
+  padding:0;
+  font-size: 20px;
+  top:200px;
+  left: 700px;
+  width: 600px;
+}
+.ir {
+  color:white;
+  font-size:20px;
+  top: 400px;
+  left:700px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.inst {
+  width: 286px;
+  height:70px;
+  position: fixed;
+  bottom: 10px;
+  right: 0px;
+}
+}
+
+
+@media screen and (max-width: 769px) {
+
+.back-img {
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp);
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  margin-top:30px;
+  padding:0;
+  height: 700px;
+}
+
+.menu-btn {
+  position: fixed;
+  top:10px;
+  right: 10px;
+  display: flex;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  z-index: 90;
+  background-color: white;
+  cursor: pointer;
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 25px;
+  border-radius: 3px;
+  background-color: black;
+  position: absolute;
+}
+.menu-btn span:before {
+  bottom: 8px;
+}
+.menu-btn span:after {
+  top: 8px;
+}
+#menu-btn-check:checked ~ .menu-btn span {
+  background-color: rgba(255,255,255,0);
+}
+#menu-btn-check:checked ~ .menu-btn span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+#menu-btn-check:checked ~ .menu-btn span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+#menu-btn-check {
+  display: none;
+}
+
+.menu-content {
+  width: 100%;
+  height:100%;
+  position: fixed;
+  z-index: 80;
+  top: 70px;
+  left: 0;
+  background-color: rgba(0,0,0,0.8);
+}
+.menu-content ul {
+  padding:70px 10px 0;
+}
+.menu-content ul li {
+  list-style: none;
+}
+.menu-content ul li a {
+  display:  block;
+  width: 100%;
+  font-size:15px;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px 15px 10px 0;
+  position: relative;
+}
+.menu-content ul li a::before {
+  content:  "";
+  width: 7px;
+  height: 7px;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 11px;
+  top: 16px;
+}
+.menu-content {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 70px;
+  left: 100%;
+  z-index: 80;
+  background-color: rgba(0,0,0,0.8);
+  transition: 0.5s;
+}
+#menu-btn-check:checked ~ .menu-content {
+  left: 0;
+}
+
+.menu-content span:last-child {
+  font-size: 12px;
+  color: orange;
+}
+.b {
+  font-size: 12px;
+  color: orange;
+}
+
+.potepan {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  height: 70px;
+}
+
+
+.menu-pt {
+  position: relative;
+  top: -20px;
+  left:10px;
+  float: left;
+  cursor: pointer;
+  z-index: 120;
+}
+.a {
+  text-decoration: none;
+  justify-content:center;
+  font-weight: bold;
+  text-align:center;
+  color:black;
+}
+
+.a:hover {
+   opacity: 0.75;
+   text-align: center;
+}
+.menu-pt:hover {
+   opacity: 0.75;
+}
+
+.b {
+  text-align: center;
+}
+.c {
+  text-align: center;
+}
+.btn{
+  display: flex;
+  font-size: 7px;
+  color: white;
+  border-radius: 100vh;
+  background-color: orange;
+  margin-top:0px;
+  outline : none;
+  border : none;
+  height: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  align-items:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn:hover {
+  opacity: 0.75;
+}
+
+.place {
+  position: relative;
+}
+
+.body-size {
+  margin: 0px;
+  padding:0px;
+}
+
+.center-size {
+  height:0px;
+}
+.text-center {
+  white-space: nowrap;
+  text-align:center;
+  font-size:25px;
+  font-family: 'Lato',sans-serif;
+  font-weight: bold;
+  margin-top: 400px;
+  padding-left: 180px;
+  margin-bottom:15px;
+  height: 200px;
+  float: left;
+}
+
+.img-place {
+  position:relative;
+}
+.img {
+  position:absolute;
+}
+.lef {
+  top: 500px;
+  left:100px;
+}
+.cen {
+  top:470px;
+  left:250px;
+}
+.rig {
+  top:500px;
+  left:450px;
+}
+
+.color-place {
+  position:relative;
+}
+.cl {
+  position: absolute;
+}
+.white {
+  top:650px;
+  left: 95px;
+  color:white;
+  width: auto;
+}
+.black {
+  top: 0px;
+  left: 380px;
+  color:black;
+  display: none;
+}
+.li {
+  left: 50px;
+  top:750px;
+  list-style: none;
+  font-size: 10px;
+  color: gray;
+}
+.btn2 {
+  outline: none;
+  border: none;
+  background-color: orange;
+  border-radius: 100vh;
+  color: white;
+  font-size: 20px;
+  height:80px;
+  width: 500px;
+  cursor:pointer;
+}
+.btn2:hover {
+   opacity: 0.75;
+   
+}
+.btn3 {
+  border-color: gray;
+  border-width: 0.5px;
+  background-color: white;
+  border-radius: 100vh;
+  font-size: 13px;
+  height: 50px;
+  width: 150px;
+  cursor:pointer;
+}
+.btn3:hover {
+   opacity: 0.75;
+}
+
+
+.video-ins {
+  background-color: orange;
+  padding-bottom: 800px;
+  color: white;
+  transform: translate(0,200px)
+}
+.background-color {
+  display: flex;
+  position: relative;
+}
+.v {
+  position: absolute;
+}
+.pe{
+  top: 50px;
+  left:30px;
+}
+
+.te {
+  top:500px;
+  left:30px;
+  margin:0;
+  padding:0;
+  font-weight: bold;
+  font-family: 'Lato',sans-serif;
+  font-size: 40px;
+  white-space: nowrap;
+}
+.font {
+  font-family:  "游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+.tt {
+  margin:0px;
+  padding:0;
+  font-size: 20px;
+  top:600px;
+  left: 30px;
+  width: 600px;
+}
+.ir {
+  color:white;
+  font-size:20px;
+  top: 720px;
+  left:30px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.inst {
+  width: 367px;
+  height:100px;
+  position: fixed;
+  bottom: 10px;
+  right: 0px;
+}
+}
